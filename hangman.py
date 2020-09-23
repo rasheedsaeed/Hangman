@@ -17,7 +17,7 @@ word = list(random.choice(words).replace("\n", ""))
 word_len = len(word)
 # prints * x the len of word (e.g. 'coal' ****)
 word_hidden = ["*" for letter in word]
-print(word)
+
 while life:
     # if the user has guessed the word correctly
     if counter == word_len:
